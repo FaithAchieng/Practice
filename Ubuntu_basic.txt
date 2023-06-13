@@ -1,0 +1,30 @@
+1. sudo-Allows you to run programs or other commands with administative privilleges.
+2. Apt-Get Commands-  It allows uot to manage packages easily, making the process of installing , updating and removing packages straight forward.
+3.Apt- get - This commands updates te database and lets your system know if there are newer packages available or not (sudo apt-get update)
+4 Apt - get upgrade- After updating the package database, the next step is to upgrade the installed packages. (sudo apt-get upgrade)
+5 Apt-Get Dist Upgrade- It tries to intelligently handle the dependencies of ugraded packages, even if it means removing certain packages ( sudo apt-get dist -upgrade)
+6. Apt-Get Install-  If you know the name of the package , then you can easily install a program using this command:( sudo apt-get install<package-name>)
+7. Apt-get Remove- When it comes to removing installed programs this command suits( sudo apt-get remove <package-name>
+8. Apt - get Purge- Is used when you want to remove software completely from your system with its configuration or data files so that no longer personlized settings will be available during installation. (sudo apt-get purge <package-name>)
+9. Apt -get Clean - This command clears out the local repository of retrived package files, freeing up disk space ( sudo apt-get claen)
+10. Apt-get Autoclean- This command removes package files that can no longer be downloaded and are largely useless, helping to keep your system clean. ( sudo apt-get autoclean)
+11. Apt- Get Autoremove - IT is used to remove any unnecessary packages ( sudo apt- get autoremove)
+12. Date - This simple command displays the current date and time.
+13. Df- Display file system command displays te information about the disk space usage of all mounted filesystem.
+14.  Du- durectory usage command displays the size of the directory and all of its subdirectories.
+15. Free- Displays the amonut of free space available on the system.
+16. Uname-A- Provides a wide range of basic information about the system.
+17. Top - Displays the processes using the most system resources at any given time.'q' can be used to exit.
+18. Ps- This command provides information about the currently running processes.
+19. Uptime - This command provides information about how long the system has been running.
+20. Ls- Command is used to list the contents of a directory(ls)
+21. Cp- allows you to copy a file(cp) (cp file/ home/user1/)
+22. Mv - allows you to move files(mv) (mv example.txt -/documents/)
+23. Rm - removes the specified file (rm [options] [files or directories]
+24. Rmdir- Used to remove an empty directory from the file system. (rmdir [option] [directory])
+25. less- Used to display the contents of a file ib=n the terminal (less)
+26. History- Works by displaying the list of previously executed commands, along with a unique number assigned to each command(history)
+27. Man- Displays a manual paage (man)
+28. Info- Similar to man , but often provides more detailed or precise information.
+29. Passwd - Used to change user password using terminal(passwd<user>)
+30. Whatis- Shows a brief description of what is the functinality of specific built in linux command. (whatis <command>)
